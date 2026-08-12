@@ -2,20 +2,22 @@
   "name": "Mon TV Store",
   "version": "1.0.0",
   "headline": "Mes applications",
+  "style": "default",
   "menu": [
     {
-      "icon": "music-note",
+      "id": "apple_music",
       "label": "Apple Music",
       "data": {
+        "type": "pages",
+        "headline": "Apple Music",
         "pages": [
           {
             "items": [
               {
                 "type": "button",
-                "icon": "music-note",
                 "layout": "0,0,12,6",
                 "label": "Ouvrir Apple Music",
-                "action": "link:https://music.apple.com/"
+                "action": "link:window:https://music.apple.com/"
               }
             ]
           }
@@ -23,18 +25,19 @@
       }
     },
     {
-      "icon": "music-note",
+      "id": "spotify",
       "label": "Spotify",
       "data": {
+        "type": "pages",
+        "headline": "Spotify",
         "pages": [
           {
             "items": [
               {
                 "type": "button",
-                "icon": "music-note",
                 "layout": "0,0,12,6",
                 "label": "Ouvrir Spotify",
-                "action": "link:https://open.spotify.com/"
+                "action": "link:window:https://open.spotify.com/"
               }
             ]
           }
@@ -42,18 +45,19 @@
       }
     },
     {
-      "icon": "music-note",
+      "id": "soundcloud",
       "label": "SoundCloud",
       "data": {
+        "type": "pages",
+        "headline": "SoundCloud",
         "pages": [
           {
             "items": [
               {
                 "type": "button",
-                "icon": "music-note",
                 "layout": "0,0,12,6",
                 "label": "Ouvrir SoundCloud",
-                "action": "link:https://soundcloud.com/"
+                "action": "link:window:https://soundcloud.com/"
               }
             ]
           }
@@ -61,17 +65,58 @@
       }
     },
     {
-      "icon": "web-asset",
-      "label": "Navigateur",
+      "id": "twitch",
+      "label": "Twitch",
       "data": {
+        "type": "pages",
+        "headline": "Twitch",
         "pages": [
           {
             "items": [
               {
                 "type": "button",
-                "icon": "web-asset",
                 "layout": "0,0,12,6",
-                "label": "Ouvrir Internet",
+                "label": "Ouvrir Twitch",
+                "action": "link:window:https://www.twitch.tv/"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "youtube",
+      "label": "YouTube",
+      "data": {
+        "type": "pages",
+        "headline": "YouTube",
+        "pages": [
+          {
+            "items": [
+              {
+                "type": "button",
+                "layout": "0,0,12,6",
+                "label": "Ouvrir YouTube",
+                "action": "link:window:https://www.youtube.com/"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "browser",
+      "label": "Navigateur",
+      "data": {
+        "type": "pages",
+        "headline": "Navigateur Internet",
+        "pages": [
+          {
+            "items": [
+              {
+                "type": "button",
+                "layout": "0,0,12,6",
+                "label": "Ouvrir Google",
                 "action": "link:window:https://www.google.com/"
               }
             ]

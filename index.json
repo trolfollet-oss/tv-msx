@@ -1,0 +1,83 @@
+{
+  "name": "Mon TV Store",
+  "version": "1.0.0",
+  "headline": "Mes applications",
+  "menu": [
+    {
+      "icon": "music-note",
+      "label": "Apple Music",
+      "data": {
+        "pages": [
+          {
+            "items": [
+              {
+                "type": "button",
+                "icon": "music-note",
+                "layout": "0,0,12,6",
+                "label": "Ouvrir Apple Music",
+                "action": "link:https://music.apple.com/"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "icon": "music-note",
+      "label": "Spotify",
+      "data": {
+        "pages": [
+          {
+            "items": [
+              {
+                "type": "button",
+                "icon": "music-note",
+                "layout": "0,0,12,6",
+                "label": "Ouvrir Spotify",
+                "action": "link:https://open.spotify.com/"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "icon": "music-note",
+      "label": "SoundCloud",
+      "data": {
+        "pages": [
+          {
+            "items": [
+              {
+                "type": "button",
+                "icon": "music-note",
+                "layout": "0,0,12,6",
+                "label": "Ouvrir SoundCloud",
+                "action": "link:https://soundcloud.com/"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "icon": "web-asset",
+      "label": "Navigateur",
+      "data": {
+        "pages": [
+          {
+            "items": [
+              {
+                "type": "button",
+                "icon": "web-asset",
+                "layout": "0,0,12,6",
+                "label": "Ouvrir Internet",
+                "action": "link:window:https://www.google.com/"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
